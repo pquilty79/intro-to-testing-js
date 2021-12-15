@@ -1,4 +1,4 @@
-# Intro to Testing in JS
+git# Intro to Testing in JS
 
 ## Summary
 This is an introduction to automated testing in JavaScript. The idea behind automated testing is to provide immediate feedback on the code you write to solve a problem, add a feature, or fix a bug. The feedback from the tests comes in the form of green passing tests or red failing tests. Tests are functions that test functions to compare the results of the actual output vs. the expected output.
@@ -10,7 +10,7 @@ Additionally, we will be using a process called Test Driven Development, commonl
 ## Key Vocabulary
 <dl>
     <dt>Implementation</dt>
-    <dd>The code the a developer authors to realize the sequence of steps that the code runs to solve a problem (called an algorithm).</dd>    
+    <dd>The code the developer authors to realize the sequence of steps that the code runs to solve a problem (called an algorithm).</dd>    
     <dt>Refactor</dt>
     <dd>To refactor means to re-write an implementation. [Refactoring](https://martinfowler.com/bliki/DefinitionOfRefactoring.html) aims to increase the code quality without changing its observable behavior. Developers refactor code to increase readability, increase flexibility, add a fix for edge-case bugs, reduce duplication, or make the code more accessible for yourself and other developers moving forward.</dd>    
     <dt>Unit</dt>
@@ -95,7 +95,7 @@ Additionally, we will be using a process called Test Driven Development, commonl
     - Refresh `report.html` in your browser.
     - Fix the syntax error and confirm that tests are all green.
 
-1. Now, go to `code.js` and replace the function statement for `helloWorld` with a function experession. Do all the tests stay green or not? Why or why not? Double check your syntax. These are interchangeable because functions are *first class* citizens in the JS language.
+1. Now, go to `code.js` and replace the function statement for `helloWorld` with a function expression. Do all the tests stay green or not? Why or why not? Double check your syntax. These are interchangeable because functions are *first class* citizens in the JS language.
 ```js
 // function statement syntax
 function helloWorld() {
