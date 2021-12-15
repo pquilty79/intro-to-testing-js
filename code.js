@@ -7,6 +7,10 @@ function helloWorld() {
 //     return "Hello, World!";
 // }
 
-function sayHello() {
+function sayHello(input) {
+    return ("Hello, " + input + "!");
+};
 
-}
+sayHello("Jane")
+sayHello("Alex")
+sayHello("Pat")
