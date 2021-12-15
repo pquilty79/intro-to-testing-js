@@ -22,4 +22,32 @@ function isFive(number) {
         return false;
     }
 }
-isFive(5)
+
+
+function isEven(number) {
+    if (typeof number == "boolean") {
+        return false;
+    } else if (number % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+function isVowel(letter) {
+    const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+    return vowels.includes(letter);
+}
+
+
+
+function add(a, b) {
+    if (typeof (a + b) !== "number") {
+        return isNaN(NaN);
+    } else {
+        return (a + b);
+    }
+}
+
+console.log(add())
