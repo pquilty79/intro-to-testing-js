@@ -9,8 +9,17 @@ function helloWorld() {
 
 function sayHello(input) {
     return ("Hello, " + input + "!");
-};
+}
 
 sayHello("Jane")
 sayHello("Alex")
 sayHello("Pat")
+
+function isFive(number) {
+    if (number === 5) {
+        return true;
+    } else {
+        return false;
+    }
+}
+isFive(5)
