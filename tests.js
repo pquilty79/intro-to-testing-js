@@ -138,12 +138,12 @@ describe("add", function () {
         expect(add(-4, 10)).toBe(6);
     });
     it('should return a NaN when "banana" + "split is called', function () {
-        expect(add("banana", "split")).toBe(isNaN());
+        expect(add("banana", "split")).toBe(isNaN(NaN));
     });
     it('should return a NaN when 2 + "apples" is called', function () {
-        expect(add(2, "apples")).toBe(isNaN());
+        expect(add(2, "apples")).toBe(isNaN(NaN));
     });
-    // it('should return NaN when called without an argument', function () {
-    //     expect(add()).toBe(isNaN(NaN) === true);
-    // });
+    it('should return NaN when called without an argument', function () {
+        expect(add()).toBeFalsy(isNaN(NaN));
+    });
 });
