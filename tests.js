@@ -144,6 +144,6 @@ describe("add", function () {
         expect(add(2, "apples")).toBe(isNaN(NaN));
     });
     it('should return NaN when called without an argument', function () {
-        expect(add()).toBeFalsy(isNaN(NaN));
+        expect(add()).toBeNaN();
     });
 });
